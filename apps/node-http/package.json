@@ -1,0 +1,5 @@
+{
+    "name": "node-http",
+    "private": true,
+    "scripts": {"dev": "node --watch src/server.js"}
+}
