@@ -1,0 +1,16 @@
+{
+  "name": "@pizzeria/workers",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node dev.js",
+    "waiter": "node --watch waiter.js",
+    "chef:mario": "CHEF_NAME=Mario node --watch chef.js",
+    "chef:luigi": "CHEF_NAME=Luigi node --watch chef.js",
+    "retry": "node --watch retry.js"
+  },
+  "dependencies": {
+    "@pizzeria/shared": "1.0.0",
+    "amqplib": "^0.10.9"
+  }
+}

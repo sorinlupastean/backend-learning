@@ -1,0 +1,9 @@
+{
+  "name": "@pizzeria/shared",
+  "version": "1.0.0",
+  "private": true,
+  "main": "rabbit.js",
+  "dependencies": {
+    "amqplib": "^0.10.9"
+  }
+}

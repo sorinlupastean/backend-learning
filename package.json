@@ -3,13 +3,15 @@
   "private": true,
   "workspaces": [
     "apps/*",
+    "apps/*/*",
     "packages/*"
   ],
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
     "lint": "turbo run lint",
-    "test": "turbo run test"
+    "test": "turbo run test",
+    "dev:pizzeria": "turbo run dev --filter=@pizzeria/api --filter=@pizzeria/workers"
   },
   "packageManager": "npm@11.16.0",
   "devDependencies": {
